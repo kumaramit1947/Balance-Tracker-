@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root,
+body,
+html {
+    margin: 0;
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/coins_bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
 }
+
+.income {
+    border-bottom: 5px solid green;
+}
+
+.expense {
+    border-bottom: 5px solid red;
+}
+
+.card-head-income {
+    color: green;
+}
+.card-head-expense {
+    color: red;
+}
+
+.avatar-income {
+    
+    background-color: green!important;
+}
+
+.avatar-expense {
+    background-color: red!important;
+}
+
+.mui-list {
+    max-height: 92px;
+    overflow-y: scroll;
+}
+
+.doughnut{
+    width: fit-content;
+    height: 95%;
+    margin: 0 auto;
+    
+}
+
+
