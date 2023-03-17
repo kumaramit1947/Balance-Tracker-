@@ -1,6 +1,75 @@
-# Getting Started with Create React App
+# Balance Tracker 
+A Frontend Web Application to track the Income and Expense records.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Phase
+
+1. Frontend
+2. Responsiveness : Mobile and Desktop only
+3. Data storage : Browser Local Storage
+
+## Tech stack used 
+
+1. HTML
+2. CSS
+3. Javascript
+4. React.js
+5. Material UI
+6. Chart.js - Doughnut for Data Visualisation
+7. Browser Local Storage - to keep the transaction data
+
+## Decription
+
+1. A form is provided for the User to select :
+
+   1. Type of transaction : `Income` or `Expense`
+   2. Category of income or expense medium - out of options present in the dropdown
+   3. Amount of transaction
+   4. Date of transaction - set as `Current date` by default
+   
+2. Once the transaction is created , it is stored in `local storage` and displayed at:
+
+   1. Data visualisation section - using `Doughnut` chart
+   2. List of transaction
+   
+3. Net balance is calculated by : `Total Income balance - Total Expense balance` 
+   -- it can be negative too.
+   
+4. In Chart section, Income is represented by Green shades and Expense is represented by Red shades
+
+5. Transaction data can also be deleted using `Delete Icon Button` present in List
+
+6. Everytime a transaction is created, a Snackbar - Alert popup appears at the top-right corner to display success message
+
+7.  ***Transaction validation*** : 
+
+    1. Transaction category should not be `None`
+    2. Transaction amount should be greater than `0`
+
+## Concepts implemeted
+
+1. React hooks : useReducer (dispatch, reducer function), useContext (context API), useState, useEffect, Custom hooks ( useTransactions)
+2. Material UI : Card, Grid, Form Control, Select, Text Field, Typography, Snackbar, Alert, Menu Item, Button, Input Label, List, ListItem, ListItemAvatar, ListItemText, Avatar, ListItemSecondaryAction, IconButton, Slide, Divider
+3. Chart.js : Doughnut, Chart datsets, options, data, background color, labels, legend
+
+## Future Plans
+
+1. Display labels for each transaction on Chart section
+2. Implement responsiveness for all device widths
+3. Add speech command features - Using `Speechly`
+4. Option to add more categories for Income and Expense
+5. Clear all button - to clear all the previous records
+
+## Snapshots
+
+![Balance Track 1](https://user-images.githubusercontent.com/39863626/226024804-1bd4e9d8-add6-488a-bbd0-fd3542b00ec9.png)
+
+![Balance Track2](https://user-images.githubusercontent.com/39863626/226024902-4cd9e6ea-44e6-475e-a0b2-06d40d457e28.png)
+
+![Balance Track3](https://user-images.githubusercontent.com/39863626/226024961-7fc5e25d-0211-4ab7-a792-8bce441adee3.png)
+
+
+***************************************************************************************
+
 
 ## Available Scripts
 
@@ -29,42 +98,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
