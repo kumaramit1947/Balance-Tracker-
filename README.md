@@ -1,6 +1,13 @@
 # Balance Tracker 
 A Frontend Web Application to track the Income and Expense records.
 
+
+## Demo Video
+
+
+https://user-images.githubusercontent.com/39863626/228356215-4ff4b837-5352-4e29-a170-c797415ea8c5.mp4
+
+
 ## Phase
 
 1. Frontend
@@ -58,14 +65,6 @@ A Frontend Web Application to track the Income and Expense records.
 3. Add speech command features - Using `Speechly`
 4. Option to add more categories for Income and Expense
 5. Clear all button - to clear all the previous records
-
-## Demo Video
-
-
-https://user-images.githubusercontent.com/39863626/228356215-4ff4b837-5352-4e29-a170-c797415ea8c5.mp4
-
-
-
 
 ## Snapshots
 
