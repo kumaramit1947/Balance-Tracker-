@@ -59,6 +59,14 @@ A Frontend Web Application to track the Income and Expense records.
 4. Option to add more categories for Income and Expense
 5. Clear all button - to clear all the previous records
 
+## Demo Video
+
+
+https://user-images.githubusercontent.com/39863626/228356215-4ff4b837-5352-4e29-a170-c797415ea8c5.mp4
+
+
+
+
 ## Snapshots
 
 ![Balance Track 1](https://user-images.githubusercontent.com/39863626/226024804-1bd4e9d8-add6-488a-bbd0-fd3542b00ec9.png)
